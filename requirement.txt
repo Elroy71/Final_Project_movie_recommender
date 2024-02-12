@@ -1,0 +1,9 @@
+streamlit
+joblib
+requests
+pathlib
+Path
+image
+pillow
+streamlit.components.v1
+extra-streamlit-components 
