@@ -1,5 +1,5 @@
 import streamlit as st 
-import pickle
+import joblib
 import requests
 from pathlib import Path 
 import streamlit as st 
