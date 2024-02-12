@@ -1,0 +1,4 @@
+genre_similarity.joblib filter=lfs diff=lfs merge=lfs -text
+similarity.joblib filter=lfs diff=lfs merge=lfs -text
+movies_list.joblib filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
