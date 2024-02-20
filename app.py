@@ -67,8 +67,8 @@ def fetch_poster(movie_id):
 
 
 movies = pickle.load(open('movies_list.pkl','rb'))  #joblib.load('movies_list.joblib')
-similarity =  pickle.load(open('similarity.pkl','rb')) #joblib.load('similarity.joblib')
-genre_similarity =  pickle.load(open('genre_similarity.pkl','rb')) #joblib.load('genre_similarity.joblib')
+similarity =  pickle.load(open('model_similarity.pkl','rb')) #joblib.load('similarity.joblib')
+genre_similarity =  pickle.load(open('model_genre_similarity.pkl','rb')) #joblib.load('genre_similarity.joblib')
 movies_list = movies['title'].values
 movies_description = movies['overview'].values
 movies_vote_average = movies['vote_average'].values
